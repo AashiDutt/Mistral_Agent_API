@@ -60,14 +60,22 @@ python app.py
 Mistral_Agent_API/
 │
 ├── tools/                      # All tools and agents
+
 │   ├── configs.py              # Mistral client, tool schemas
+
 │   ├── image_gen.py            # Food image generation logic
+
 │   ├── next.py                 # Calorie estimator, logger, next meal suggester
+
 │   └── web_search.py           # Web search agent using built-in connector
 │
 ├── agent.py                    # Main pipeline logic for chaining tools
+
 ├── app.py                      # Gradio frontend interface
+
 ├── .env                        # API key config (not to be shared)
+
 ├── requirements.txt            # Project dependencies
+
 └── generated_images/           # Stores generated meal images
 
