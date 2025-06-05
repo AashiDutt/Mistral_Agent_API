@@ -71,6 +71,7 @@ Mistral_Agent_API/
 │
 ├── agent.py                    # Main pipeline logic for chaining tools
 
+
 ├── app.py                      # Gradio frontend interface
 
 ├── .env                        # API key config (not to be shared)
